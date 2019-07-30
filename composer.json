@@ -1,0 +1,24 @@
+{
+    "name": "syx\/junit-laravel",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunyixin",
+            "email": "sunyixin@zrtec.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Syx\\JunitLaravel\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Syx\\JunitLaravel\\JunitServiceProvide"
+            ]
+        }
+    }
+}
